@@ -8,6 +8,13 @@ function CVPage() {
 
             <div className="space-between">
                 <p className="text"><strong>Virginia Tech</strong></p>
+                <p className="shadow text">2024 - 2025</p>
+            </div>
+            <p className="shadow text">Master's of Engineering in Computer Science (MENG CSA) </p>
+            <br></br>
+
+            <div className="space-between">
+                <p className="text"><strong>Virginia Tech</strong></p>
                 <p className="shadow text">2020 - 2023</p>
             </div>
             <p className="shadow text">Bachelor's of Science in Computer Science (BSCS) </p>
