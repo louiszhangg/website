@@ -29,7 +29,7 @@ function AboutPage() {
                 <br></br>
                 <p className="text">I aspire to work as a software engineer, creating products that enhance lives and spark inspiration.</p>
                 <br></br>
-                <p className="text"><em>Think I could be a good fit for your company? Feel free to contact me below!</em></p>
+                <p className="text"><em>Think I could be a good fit for your company? Feel free to contact me using the social media links above!</em></p>
             </div>
         </div>
     )
