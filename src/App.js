@@ -10,6 +10,7 @@ import SalonPage from './pages/SalonPage';
 import HacksPage from './pages/HacksPage';
 import CoursePage from './pages/CoursePage';
 import OopsPage from './pages/OopsPage';
+import Header from './components/Header';
 
 function App() {
   const [currentPage, setCurrentPage] = useState("CONTENT");
@@ -41,13 +42,19 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Cursor />
-      <Sidebar changeContent={changePage}/>
-      <div className="content">
-        {renderPage()}
+    <>
+      <div>
+        <Header />
       </div>
-    </div>
+      <div className="App">
+        <Cursor />
+        <Sidebar changeContent={changePage}/>
+        <div className="content">
+          {renderPage()}
+        </div>
+      </div>
+    </>
+    
   );
 }
 
